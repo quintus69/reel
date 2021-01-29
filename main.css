@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500|Yanone+Kaffeesatz:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Ubuntu:500|Vollkorn+SC|Yanone+Kaffeesatz:700&display=swap');
+body{
+    font-family: 'Sen', sans-serif;
+}
+#parallax-image{
+    background-image: url("background4.jpg");
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tex-center{
+    font-family: 'Vollkorn SC', serif;
+    padding: 80px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 45px;
+    
+}
+.button 
+{
+        
+        border: none;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+}
+.button1 {border-radius: 12px;}
+.rowv{
+    position: absolute;
+    top: 260%;
+    width: 100%;
+    text-align: center;
+  
+}
+.text-view{
+    margin-left: 44%;
+    
+}
+.font-weight{
+    text-align: center;
+}
+footer{
+    padding: 2rem 0 3rem;
+}
+footer a{
+    color: white;
+
+}
+footer svg.svg-inline-fa{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+.img-fluid{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.like{
+    line-height: 10px;
+    margin-left: 1rem;
+}
